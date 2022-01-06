@@ -6,36 +6,42 @@
         <title>Cryto Converter</title>
     </head>
     <body>
+        <div class="wrapper">
         <header>
             <h1>Crypto Converter</h1>
         </header>
-        <main>
-            <h2>Currency Select</h2>
-            <!--surround the select box with a "currency-select" DIV element. Remember to set the width:-->
-            <div class="currency-select" style="width:200px;">
-              <select>
-                <option value="0">Select currency:</option>
-                  <option value="1">USD</option>
-                  <option value="2">EUR</option>
-                  <option value="3">JPY</option>
-                  <option value="4">GBP</option>
-                  <option value="5">CHF</option>
-                  <option value="6">CAD</option>
-                  <option value="7">AUD</option>
-                  <option value="8">CNH</option>
-                  <option value="9">HKD</option>
-                  <option value="10">NZD</option>
-              </select>
+        <form action="#">
+            <div class="amount">
+              <p>Enter Amount</p>
+              <input type="text" value="1">
             </div>
-            <div class="input">
-                <div class="amount">
-                    <label for="money-amount">Enter Value</label>
-                    <input type="text" id="money-amount" name="money-amount">
+            <div class="drop-down">
+              <div class="from">
+                <p>From</p>
+                <div class="select-box">
+                  
+                  <select></select>
                 </div>
-                <div class="execute">
-                    <button>Execute</button>
+              </div>
+              
+              <div class="to">
+                <p>To</p>
+                <div class="select-box">
+                  <select> </select>
+                </div>
+              </div>
+            </div>
+            <div class="exchange-rate">...</div>
+            <button>Exchange</button>
+          </form>
+                    </div>
                 </div>
             </div>
+        </main>
+        <script src="assets/js/countries.js"></script>
+        <script src="assets/js/secure.js"></script>
+        <script src="assets/js/script.js"></script>
+        
             <div class="flip-box">
                 <div class="flip-box-inner">
                   <div class="flip-box-front">
