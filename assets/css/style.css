@@ -1,5 +1,4 @@
 *{
-<<<<<<< HEAD
   margin: 0;
   color: rgb(0, 0, 0);
 }
@@ -50,62 +49,10 @@ display: none; /*hide original SELECT element:*/
 
 .select-selected {
 background-color: #34495E;
-=======
-    margin: 0;
-    color: white;
-}
-
-header {
-    padding: 10px;
-    background: rgb(128,139,150);
-    background: linear-gradient(90deg, rgba(128,139,150,1) 0%, rgba(39,55,70,1) 49%, rgba(128,139,150,1) 100%);
-    text-align: center;
-}
-
-header h1 {
-  color: #D8CA1D;
-}
-
-body {
-  background-image: url("../images/image-bitcoin-2.jpg");
-  background-size: 100%;
-}
-
-main {
-    display: flex;
-    position: relative;
-}
-
-main h2 {
-    margin-left: 590px;
-    margin-top: 20px;
-    background-color: #34495E;
-    border: 2px solid white;
-    width: 13%;
-    text-align: center;
-    border-radius: 13px;
-}
-    
-.currency-select {
-  position: relative;
-  font-family: Arial;
-  position: absolute;
-  margin-top: 80px;
-  margin-left: 75px;
-}
-
-.currency-select select {
-  display: none; /*hide original SELECT element:*/
-}
-
-.select-selected {
-  background-color: #34495E;
->>>>>>> 21b158da204a9e0dae57d2017ae5da0c613a5188
 }
 
 /*style the arrow inside the select element:*/
 .select-selected:after {
-<<<<<<< HEAD
 position: absolute;
 content: "";
 top: 14px;
@@ -114,105 +61,36 @@ width: 0;
 height: 0;
 border: 6px solid transparent;
 border-color: #fff transparent transparent transparent;
-=======
-  position: absolute;
-  content: "";
-  top: 14px;
-  right: 10px;
-  width: 0;
-  height: 0;
-  border: 6px solid transparent;
-  border-color: #fff transparent transparent transparent;
->>>>>>> 21b158da204a9e0dae57d2017ae5da0c613a5188
 }
 
 /*point the arrow upwards when the select box is open (active):*/
 .select-selected.select-arrow-active:after {
-<<<<<<< HEAD
 border-color: transparent transparent #fff transparent;
 top: 7px;
-=======
-  border-color: transparent transparent #fff transparent;
-  top: 7px;
->>>>>>> 21b158da204a9e0dae57d2017ae5da0c613a5188
 }
 
 /*style the items (options), including the selected item:*/
 .select-items div,.select-selected {
-<<<<<<< HEAD
 color: #ffffff;
 padding: 8px 16px;
 border: 1px solid transparent;
 border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
 cursor: pointer;
 user-select: none;
-=======
-  color: #ffffff;
-  padding: 8px 16px;
-  border: 1px solid transparent;
-  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-  cursor: pointer;
-  user-select: none;
->>>>>>> 21b158da204a9e0dae57d2017ae5da0c613a5188
 }
 
 /*style items (options):*/
 .select-items {
-<<<<<<< HEAD
 position: absolute;
 background-color: #34495E;
 top: 100%;
 left: 0;
 right: 0;
 z-index: 99;
-=======
-  position: absolute;
-  background-color: #34495E;
-  top: 100%;
-  left: 0;
-  right: 0;
-  z-index: 99;
->>>>>>> 21b158da204a9e0dae57d2017ae5da0c613a5188
 }
 
 /*hide the items when the select box is closed:*/
 .select-hide {
-<<<<<<< HEAD
-display: none;
-}
-
-.select-items div:hover, .same-as-selected {
-background-color: rgba(0, 0, 0, 0.1);
-}
-
-.input {
-  position: absolute;
-  margin-top: 80px;
-  margin-left: 517px;
-  display: flex;
-}
-
-.amount {
-  font-size: 21px;
-  background-color: #34495E;
-  border: 1px solid white;
-  padding: 8px;
-}
-
-.execute button {
-  padding: 8px;
-  color: white;
-  background-color: #34495E;
-}
-
-.exchange-rate {
-color:#ffffff;
-}
-
-.to {
-display:none;
-}
-=======
   display: none;
 }
 
@@ -311,4 +189,3 @@ display:none;
 
 /* FLIP IMAGE ENDS */
 
->>>>>>> 21b158da204a9e0dae57d2017ae5da0c613a5188
