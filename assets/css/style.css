@@ -5,19 +5,18 @@
 
 header {
     padding: 10px;
-    color: white;
     background: rgb(128,139,150);
     background: linear-gradient(90deg, rgba(128,139,150,1) 0%, rgba(39,55,70,1) 49%, rgba(128,139,150,1) 100%);
+    text-align: center;
 }
 
 header h1 {
-    text-align: center;
+  color: #D8CA1D;
 }
 
 body {
   background-image: url("../images/image-bitcoin-2.jpg");
   background-size: 100%;
-  background-color: #85929E;
 }
 
 main {
@@ -98,6 +97,7 @@ main h2 {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+/* Wraps the botton two (enter value, execute) */
 .input {
     position: absolute;
     margin-top: 80px;
@@ -105,6 +105,7 @@ main h2 {
     display: flex;
 }
 
+/* Enter value section */
 .amount label {
     font-size: 21px;
     background-color: #34495E;
@@ -115,9 +116,75 @@ main h2 {
     padding: 8px;
 }
 
+/* Execute button */
 .execute button {
     padding: 8px;
-    color: white;
     background-color: #34495E;
 }
-  
+
+.execute button:active {
+  color: black;
+  background-color: #D8CA1D;
+}
+
+/* Input */
+#money-amount {
+  color: black; /* input text */
+}
+/* 
+
+/* FLIP IMAGE START */
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+  width: 22%;
+  height: 200px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 543px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-box-front img, .flip-box-back img {
+  height: 200px;
+  width: 100%;
+  border-radius: 50px;
+}
+
+/* Style the front side */
+.flip-box-front {
+  border-radius: 50px;
+}
+
+/* Style the back side */
+.flip-box-back {
+  transform: rotateY(180deg);
+}
+
+/* FLIP IMAGE ENDS */
+
