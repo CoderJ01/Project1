@@ -148,3 +148,21 @@ background-size: 100%;
 
 /* FLIP IMAGE ENDS */
 
+/* MEDIA RESPONSIVENESS */
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 540px) {
+  
+}
+
+@media screen and (max-width: 414px) {
+  
+}
+
+@media screen and (max-width: 375px) {
+  
+}
+
