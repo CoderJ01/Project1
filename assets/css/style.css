@@ -66,14 +66,6 @@ background-size: 100%;
   margin-left: 137px;
 }
 
-.to {
-  margin-left: 30px;
-}
-
-.to p {
-  width: 10%;
-}
-
 .amount p, .from p, .to p {
   background-color: var(--primary-color);
   border: 1px solid white;
