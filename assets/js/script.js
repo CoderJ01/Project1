@@ -5,7 +5,7 @@ getButton = document.querySelector("form button");
 
 for (let i = 0; i < dropDown.length; i++) {
     for(let currency_code in country_all){
-        let selected = i == 0 ? currency_code == "EUR" ? "selected" : "" : currency_code == "USD" ? "selected" : "";
+        let selected = i == 0 ? currency_code == "EUR"? "selected" : "" : currency_code == "USD" ? "selected" : "";
         let optionTag = `<option value="${currency_code}" ${selected}>${currency_code}</option>`;
         dropDown[i].insertAdjacentHTML("beforeend", optionTag);
     }

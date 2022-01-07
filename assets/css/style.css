@@ -1,138 +1,97 @@
 *{
   margin: 0;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+:root {
+  --primary-color: #34495E;
+  --secondary-color: #D8CA1D;
 }
 
 header {
   padding: 10px;
-  color: white;
   background: rgb(128,139,150);
   background: linear-gradient(90deg, rgba(128,139,150,1) 0%, rgba(39,55,70,1) 49%, rgba(128,139,150,1) 100%);
 }
 
 header h1 {
   text-align: center;
+  color: var(--secondary-color);
 }
 
 body {
 background-image: url("../images/image-bitcoin-2.jpg");
 background-size: 100%;
-background-color: #85929E;
 }
 
-main {
+/* wraps three classes: .amount, .drop-down, .exchange-rate */
+.wrapper {
+  width: 100%;
   display: flex;
-  position: relative;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 30px;
 }
 
-main h2 {
-  margin-left: 590px;
-  margin-top: 20px;
-  background-color: #34495E;
-  border: 2px solid white;
-  width: 13%;
-  text-align: center;
-  border-radius: 13px;
-}
-  
-.currency-select {
-position: relative;
-font-family: Arial;
-position: absolute;
-margin-top: 80px;
-margin-left: 75px;
+/* .amount division */
+.amount p {
+  width: 34%;
 }
 
-.currency-select select {
-display: none; /*hide original SELECT element:*/
+.amount button {
+  padding: 8px;
+  background-color: var(--primary-color);
 }
 
-.select-selected {
-background-color: #34495E;
-}
-
-/*style the arrow inside the select element:*/
-.select-selected:after {
-position: absolute;
-content: "";
-top: 14px;
-right: 10px;
-width: 0;
-height: 0;
-border: 6px solid transparent;
-border-color: #fff transparent transparent transparent;
-}
-
-/*point the arrow upwards when the select box is open (active):*/
-.select-selected.select-arrow-active:after {
-border-color: transparent transparent #fff transparent;
-top: 7px;
-}
-
-/*style the items (options), including the selected item:*/
-.select-items div,.select-selected {
-color: #ffffff;
-padding: 8px 16px;
-border: 1px solid transparent;
-border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
-cursor: pointer;
-user-select: none;
-}
-
-/*style items (options):*/
-.select-items {
-position: absolute;
-background-color: #34495E;
-top: 100%;
-left: 0;
-right: 0;
-z-index: 99;
-}
-
-/*hide the items when the select box is closed:*/
-.select-hide {
-  display: none;
-}
-
-.select-items div:hover, .same-as-selected {
-  background-color: rgba(0, 0, 0, 0.1);
-}
-
-/* Wraps the botton two (enter value, execute) */
-.input {
-    position: absolute;
-    margin-top: 80px;
-    margin-left: 517px;
-    display: flex;
-}
-
-/* Enter value section */
-.amount label {
-    font-size: 21px;
-    background-color: #34495E;
-    border: 1px solid white;
+.amount button:active {
+  background-color: var(--secondary-color);
+  color: black;
 }
 
 .amount input {
-    padding: 8px;
+  color: auto;
+  padding: 8px;
+  background-color: rgb(128,139,150);
 }
 
-/* Execute button */
-.execute button {
-    padding: 8px;
-    background-color: #34495E;
+/* wraps two classes: .from, .to */
+.drop-down {
+  display: flex;
+  margin-left: 180px;
 }
 
-.execute button:active {
-  color: black;
-  background-color: #D8CA1D;
+.from p {
+  width: 20%;
 }
 
-/* Input */
-#money-amount {
-  color: black; /* input text */
+.to {
+  margin-left: 30px;
 }
-/* 
+
+.to p {
+  width: 10%;
+}
+
+.amount p, .from p, .to p {
+  background-color: var(--primary-color);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+/* selection boxes, one in .to and one in .from */
+.select-box select{
+  padding: 7px;
+  width: 185px;
+  background-color: var(--primary-color);
+}
+
+/* output */
+.exchange-rate {
+  margin-left: 115px;
+  margin-top: 26px;
+  background-color: var(--primary-color);
+}
+
 
 /* FLIP IMAGE START */
 
