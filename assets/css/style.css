@@ -263,9 +263,9 @@ background-size: 100%;
     margin-top: 750px;
   }
 
-  /* wireframe start */
+  /* wireframe (filled) start */
   .bitcoin-value {
-    margin-left: 270px;
+    margin-left: 264px;
   }
   /* wireframe end */
 
@@ -279,6 +279,14 @@ background-size: 100%;
 }
 
 @media screen and (max-width: 414px) {
+
+  body {
+    background-size: 770%;
+  }
+
+  .exchange-rate {
+    font-size: 65px;
+  }
   
 }
 
