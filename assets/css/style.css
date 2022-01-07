@@ -231,17 +231,50 @@ background-size: 100%;
   }
 
   .flip-box {
-    background-color: transparent;
     width: 400px;
     height: 350px;
-    perspective: 1000px; 
-    position: absolute;
     margin-top: 1400px;
     margin-left: 300px;
   }
 }
 
 @media screen and (max-width: 540px) {
+
+  body {
+    background-size: 615%;
+  }
+
+  header {
+    background: linear-gradient(90deg, rgba(128,139,150,1) 0%, rgba(39,55,70,1) 41%, rgba(128,139,150,1) 100%);
+  }
+
+  header h1 {
+    margin-right: 217px;
+  }
+
+  .wrapper {
+    margin-left: -25px;
+  }
+
+  .exchange-rate {
+    position: absolute;
+    width: 700px;
+    margin-left: 153px;
+    margin-top: 750px;
+  }
+
+  /* wireframe start */
+  .bitcoin-value {
+    margin-left: 270px;
+  }
+  /* wireframe end */
+
+  .flip-box {
+    width: 400px;
+    height: 350px;
+    margin-top: 1400px;
+    margin-left: 275px;
+  }
   
 }
 
