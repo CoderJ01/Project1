@@ -1,7 +1,8 @@
-# Monetary Converter
+# Money Converter
 
 ## Purpose
-This website is designed to convert crypto currencies. From the selection menu on the left-hand side of the page, the user chooses a bitcoin variation to be converted into USD (US dollars). The user then submits a value into the input box. Once the value of the Bitcoin variation is submitted, the equivalent monetary value of USD is displayed, as well as the equivalent value of the standard Bitcoin cryptocurrency. 
+This website is designed to convert currencies. From the two selection menus on the middle of the page, the user chooses monetary system from two countries. The user then submits a value into the input box. The value indiactes the monetary value of the country selected in the first (left) selection menu. Said value gets converted into the equivalent value of the country selected in the second (right) menu. <!-- converted into the equivalent value in USD (put this in later)-->. 
+<!-- The USD value is then converted into the equivalent value in Bitcoin. -->
 
 ## Built With
  * HTML
