@@ -160,7 +160,7 @@ background-size: 100%;
   header {
     width: 1013px;
     padding: 75px;
-    background: linear-gradient(90deg, rgba(128,139,150,1) 0%, rgba(39,55,70,1) 44%, rgba(128,139,150,1) 100%);
+    background: linear-gradient(90deg, rgba(128,139,150,1) 0%, rgba(39,55,70,1) 41%, rgba(128,139,150,1) 100%);
   }
 
   header h1 {
@@ -239,10 +239,6 @@ background-size: 100%;
 
   body {
     background-size: 645%;
-  }
-
-  header {
-    background: linear-gradient(90deg, rgba(128,139,150,1) 0%, rgba(39,55,70,1) 41%, rgba(128,139,150,1) 100%);
   }
 
   header h1 {
