@@ -24,7 +24,7 @@ background-image: url("../images/image-bitcoin-2.jpg");
 background-size: 100%;
 }
 
-/* wraps three classes: .amount, .drop-down, .exchange-rate */
+/* wraps four classes: .amount, .drop-down, .exchange-rate, .bitcoin-value */
 .wrapper {
   width: 100%;
   display: flex;
@@ -85,6 +85,7 @@ background-size: 100%;
   margin-top: 165px;
   background-color: var(--primary-color);
   width: 250px;
+  text-align: center;
 }
 
 /* Bitcoin value display */
