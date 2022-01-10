@@ -161,18 +161,18 @@ background-size: 100%;
   header {
     width: 1013px;
     padding: 75px;
-    background: linear-gradient(90deg, rgba(128,139,150,1) 0%, rgba(39,55,70,1) 41%, rgba(128,139,150,1) 100%);
+    background: linear-gradient(90deg, rgba(128,139,150,1) 0%, rgba(39,55,70,1) 50%, rgba(128,139,150,1) 100%);
   }
 
   header h1 {
     font-size: 130px;
-    margin-right: 210px;
+    margin-right: 0px;
   }
 
   .wrapper {
     flex-wrap: wrap;
-    margin-top: 100px;
-    margin-left: -30px;
+    margin-top: 140px;
+    margin-left: 80px;
   }
 
   .select-box select {
@@ -226,7 +226,7 @@ background-size: 100%;
     width: 66%;
     height: 300px;
     margin-top: 1500px;
-    margin-left: 210px;
+    margin-left: 305px;
   }
 
   .flip-box-front img, .flip-box-back img {
@@ -243,11 +243,11 @@ background-size: 100%;
   }
 
   header h1 {
-    margin-right: 217px;
+    margin-right: 0px;
   }
 
   .wrapper {
-    margin-left: -25px;
+    margin-left: 75px;
   }
 
   .exchange-rate {
@@ -265,7 +265,7 @@ background-size: 100%;
 
   .flip-box {
     width: 99%;
-    margin-left: 200px;
+    margin-left: 295px;
   }
 }
 
@@ -281,7 +281,7 @@ background-size: 100%;
 
   .flip-box {
     width: 127%;
-    margin-left: 200px;
+    margin-left: 300px;
   }
   
 }
@@ -295,7 +295,7 @@ background-size: 100%;
   .flip-box {
     width: 160%;
     height: 250px;
-    margin-left: 156px;
+    margin-left: 260px;
   }
 
 }
